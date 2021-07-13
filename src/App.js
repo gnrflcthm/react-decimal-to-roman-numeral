@@ -99,7 +99,17 @@ function App() {
                                         <b>Did You Know:</b>
                                     </h5>
                                     <h5 className="text-center">
-                                        {EMPTY_MESSAGE}
+                                        {EMPTY_MESSAGE}.
+                                        <a
+                                            href="https://en.wikipedia.org/wiki/Roman_numerals#Zero"
+                                            style={{
+                                                fontSize: "0.5rem",
+                                                textDecoration: "none",
+                                            }}
+                                            className="text-primary"
+                                        >
+                                            <small>ref</small>
+                                        </a>
                                     </h5>
                                 </>
                             </animated.div>
